@@ -1,87 +1,56 @@
-# Alura Cursos - Challenge 2: Data Science LATAM
+<h1>📊 Estudio sobre la Deserción de Clientes en Telecom X</h1>
 
-## Telecom X - Investigación sobre el Abandono de Usuarios en el Sector Telecomunicaciones
+<h2>⭐️ Introducción del Proyecto</h2>
+<p>Este proyecto se centra en el análisis del abandono de clientes en la empresa de telecomunicaciones <strong>Telecom X</strong>. El propósito es detectar los factores que influyen en la decisión de los usuarios de cancelar sus servicios, utilizando datos históricos para construir un diagnóstico sólido. A través de procesos de limpieza, exploración y visualización de datos, se busca obtener conclusiones estratégicas que respalden acciones orientadas a la retención de clientes.</p>
 
-Este proyecto aborda el problema de la fuga de clientes (churn) en una empresa de telecomunicaciones. El propósito central es descubrir patrones de comportamiento entre los usuarios que dejaron el servicio, apoyándose en datos históricos. Para ello, se aplicaron métodos de preprocesamiento, análisis exploratorio, visualización gráfica y técnicas estadísticas, con el fin de comprender qué variables influyen más en la decisión de desertar y cómo reducir este riesgo.
+<h2>⭐️ Archivos del Proyecto</h2>
+<ul>
+  <li><strong>TelecomX_LATAM.ipynb:</strong> Contiene el desarrollo completo del análisis y resultados.</li>
+  <li><strong>Base de datos:</strong> Conjunto de registros históricos utilizados para el estudio.</li>
+  <li><strong>README.md:</strong> Documento explicativo con detalles de enfoque y ejecución.</li>
+</ul>
 
-🎯 Metas del Estudio
+<h2>⭐️ Herramientas Utilizadas</h2>
+<ul>
+  <li>Python 3.x</li>
+  <li>Pandas</li>
+  <li>NumPy</li>
+  <li>Matplotlib</li>
+  <li>Seaborn</li>
+  <li>Plotly</li>
+  <li>Jupyter Notebook</li>
+</ul>
 
-Asegurar la calidad de los datos eliminando errores e inconsistencias.
+<h2>⭐️ Configuración del Entorno</h2>
+<p>1. Clonar el repositorio desde GitHub:</p>
+<code>git clone https://github.com/renzolea/TelecomX-Churn-Analysis</code>
 
-Examinar cómo se distribuyen los clientes que permanecen frente a los que se dan de baja.
+<p>2. Instalar las librerías necesarias:</p>
+<code>pip install pandas matplotlib seaborn numpy plotly</code>
 
-Detectar vínculos y correlaciones entre diferentes variables.
+<p>3. Abrir el proyecto en Jupyter Notebook o VSCode:</p>
+<code>jupyter notebook TelecomX_LATAM.ipynb</code>
 
-Extraer conclusiones útiles sobre los factores que impulsan la deserción.
+<h2>⭐️ Pasos para Ejecutar el Análisis</h2>
+<ol>
+  <li>Abrir el archivo <code>TelecomX_LATAM.ipynb</code>.</li>
+  <li>Ejecutar cada celda en orden para reproducir los resultados.</li>
+  <li>Visualizar los gráficos y métricas obtenidas.</li>
+  <li>Revisar las conclusiones finales sobre la deserción de clientes.</li>
+</ol>
 
-Sugerir líneas de acción que favorezcan la retención y fidelización.
+<h2>⭐️ Principales Hallazgos</h2>
+<p><strong>Mayor propensión a desertar:</strong> clientes nuevos, con cargos mensuales elevados y facturación electrónica.</p>
+<p><strong>Factores de retención:</strong> la antigüedad en el servicio reduce la probabilidad de abandono.</p>
+<p><strong>Segmentos vulnerables:</strong> personas solteras, de mayor edad y sin dependientes presentan mayores tasas de churn.</p>
 
-🛠️ Tecnologías Empleadas
+<h2>⭐️ Conclusiones</h2>
+<p>El análisis permitió identificar los perfiles de clientes con mayor riesgo de abandono y las variables más influyentes en el churn. Con base en los resultados, se recomienda a <strong>Telecom X</strong> diseñar estrategias diferenciadas de fidelización, optimizar la atención a segmentos vulnerables y ajustar políticas de facturación para mejorar la retención.</p>
 
-Lenguaje: Python 3.x
+<h2>⭐️ Autor</h2>
+<p><strong>Renzo Lea</strong><br>
+Proyecto desarrollado como parte del reto de Ciencia de Datos de Alura Latam</p>
 
-Entorno: Jupyter Notebook
-
-Librerías: Pandas, NumPy, Seaborn, Matplotlib, Plotly
-
-📂 Contenido del Repositorio
-
-TelecomX_LATAM.ipynb → cuaderno principal con el análisis completo.
-
-README.md → archivo de documentación.
-
-/graficos_telecom/ → carpeta con representaciones visuales:
-
-Gráfico de abandono (abandono.png)
-
-Gráfico por variables categóricas (categoricas.png)
-
-Relación con variables binarias (binarios.png)
-
-Matriz de correlación (correlacion.png)
-
-Resultados con variables numéricas (variables_numericas.html)
-
-📊 Visualizaciones Incluidas
-
-Distribución del abandono de clientes.
-
-Comparaciones por género, edad y variables categóricas.
-
-Relación entre indicadores numéricos y churn.
-
-Mapa dinámico que muestra la localización de clientes y su propensión a abandonar.
-
-🔑 Principales Descubrimientos
-
-Los clientes recién incorporados, con facturación digital y cargos elevados, tienden a desertar con más frecuencia.
-
-La antigüedad actúa como un factor de protección: a mayor tiempo de permanencia, menor riesgo de churn.
-
-Usuarios solteros, sin dependientes y adultos mayores presentan mayor vulnerabilidad a dejar el servicio.
-
-🚀 Cómo Ejecutar el Análisis
-
-Clonar el repositorio:
-
-git clone https://github.com/angelesGladin/TelecomX_latam.git
-
-
-Instalar las dependencias necesarias (recomendable: entorno virtual):
-
-pip install pandas matplotlib seaborn numpy
-
-
-Abrir el cuaderno en Jupyter o VSCode:
-
-jupyter notebook TelecomX_LATAM.ipynb
-
-
-Ejecutar paso a paso las celdas para reproducir los resultados.
-
-📅 Estado Actual del Proyecto
-
-Finalizado | Junio 2025
-
-👩‍💻 Autora: Angeles Morales
-Desarrollado para TelecomX – Alura Latam – OracleONE
+<div class="footer">
+  &copy; 2025 Estudio sobre Deserción de Clientes – Proyecto de Ciencia de Datos
+</div>
